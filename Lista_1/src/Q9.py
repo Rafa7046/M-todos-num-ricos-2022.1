@@ -1,4 +1,3 @@
-import matplotlib.pyplot as plt
 from sympy import *
 from Q7 import bissecao_root_aproximations, newton_root_aproximations
 from Q8 import plot_graphs

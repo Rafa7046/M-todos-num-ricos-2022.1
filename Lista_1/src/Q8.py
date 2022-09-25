@@ -13,7 +13,7 @@ def plot_graphs(fun, a, b, step, p0, tol, n, file_name):
     plot_root_aproximations(newton_root_aproximations(fun, p0, tol, n))
     plt.grid(true)
     plt.legend(["Função", "Aproximações da raiz"])
-    plt.savefig(f".\Graficos\{file_name}")
+    plt.savefig(f".\Lista_1\Graficos\{file_name}")
     plt.clf()
 
 # def f():
